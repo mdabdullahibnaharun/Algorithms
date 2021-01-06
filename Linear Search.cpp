@@ -13,17 +13,17 @@ using namespace std;
 int main()
 {
     int i = 0,
-    found = TRUE,
-    totalElements = 0,
-    keyElement = 0,
-    array[MAX_ELEMENTS];
+        found = TRUE,
+        totalElements = 0,
+        keyElement = 0,
+        array[MAX_ELEMENTS];
 
     system("cls");
     printf("\nHow many elements : ");
     scanf("%d",&totalElements);
 
     /*populate a dummy array on which linear search will apply*/
-    for(i=0;i<totalElements;i++)
+    for(i=0; i<totalElements; i++)
     {
         printf(" Enter element#%2d: ",i+1);
         scanf("%d",&array[i]);

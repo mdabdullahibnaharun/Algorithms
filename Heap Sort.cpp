@@ -16,8 +16,8 @@ void heapCreation(int array[],int n);
 int main()
 {
     int i = 0,
-    totalElements = 0,
-    array[MAX_ELEMENTS];
+        totalElements = 0,
+        array[MAX_ELEMENTS];
 
     system("cls");
 
@@ -46,11 +46,11 @@ int main()
 
 void heapSort(int array[MAX_ELEMENTS],int nElements)
 {
-    int i = 0 ,
-    j = 0 ,
-    k = 0 ,
-    tempElement = 0 ,
-    sortElement = 0 ;
+    int i = 0,
+        j = 0,
+        k = 0,
+        tempElement = 0,
+        sortElement = 0 ;
 
     /*call heapCreation() to heapify*/
     heapCreation(array,nElements);
@@ -98,9 +98,9 @@ void heapSort(int array[MAX_ELEMENTS],int nElements)
 void heapCreation(int array[MAX_ELEMENTS],int nElements)
 {
     int i = 0,
-    j = 0,
-    k = 0,
-    tempElement = 0;
+        j = 0,
+        k = 0,
+        tempElement = 0;
 
     for(k = 2 ; k <= nElements ; ++k)
     {

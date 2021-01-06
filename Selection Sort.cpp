@@ -13,12 +13,12 @@ using namespace std;
 int main()
 {
     int i=0,
-    j=0,
-    k=0,
-    scan=0,
-    minvalue=0,
-    totalElements=0,
-    array[MAX_ELEMENTS];
+        j=0,
+        k=0,
+        scan=0,
+        minvalue=0,
+        totalElements=0,
+        array[MAX_ELEMENTS];
 
     system("cls");
 

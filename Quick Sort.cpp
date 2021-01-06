@@ -15,10 +15,10 @@ void quickSort(int array[],int leftElements,int rightElements);
 int main()
 {
     int i = 0,
-    left = 0,
-    right = 0,
-    totalElements = 0,
-    array[MAX_ELEMENTS];
+        left = 0,
+        right = 0,
+        totalElements = 0,
+        array[MAX_ELEMENTS];
 
     system("cls");
 
@@ -53,10 +53,10 @@ int main()
 void quickSort(int array[MAX_ELEMENTS],int leftElements,int rightElements)
 {
     int i = 0,
-    j = 0,
-    flag = FALSE,
-    partition = 0,
-    tempElement = 0;
+        j = 0,
+        flag = FALSE,
+        partition = 0,
+        tempElement = 0;
 
     if(rightElements >  leftElements)
     {
@@ -67,9 +67,11 @@ void quickSort(int array[MAX_ELEMENTS],int leftElements,int rightElements)
 
         while(!flag)
         {
-            do{
+            do
+            {
                 ++i;
-            }while((array[i] <= partition) && (i<=rightElements));
+            }
+            while((array[i] <= partition) && (i<=rightElements));
 
             while( (array[j] >= partition) && (j>leftElements))
             {

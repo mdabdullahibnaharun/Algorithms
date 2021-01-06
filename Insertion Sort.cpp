@@ -13,11 +13,11 @@ using namespace std;
 int main()
 {
     int i = 0,
-    j = 0 ,
-    k = 0,
-    element = 0,
-    array[MAX_ELEMENTS],
-    totalElements = MAX_ELEMENTS;
+        j = 0,
+        k = 0,
+        element = 0,
+        array[MAX_ELEMENTS],
+        totalElements = MAX_ELEMENTS;
 
     system("cls");
 
@@ -38,7 +38,7 @@ int main()
 
         printf("After inserting %d, array becomes:\n\n",element);
 
-        for(j = 0 ; j <= i ;j++)
+        for(j = 0 ; j <= i ; j++)
         {
             printf("%3d",array[j]);
         }

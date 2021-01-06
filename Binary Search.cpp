@@ -13,13 +13,13 @@ using namespace std;
 int main()
 {
     int i=0,
-    low=0,
-    mid=0,
-    high=0,
-    found=TRUE,
-    keyElement=0,
-    totalElements=0,
-    array[MAX_ELEMENTS];
+        low=0,
+        mid=0,
+        high=0,
+        found=TRUE,
+        keyElement=0,
+        totalElements=0,
+        array[MAX_ELEMENTS];
 
     system("cls");
     printf("\nHow many elements: ");

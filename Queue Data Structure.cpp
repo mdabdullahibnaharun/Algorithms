@@ -15,7 +15,7 @@ typedef struct queueElement
 {
     int data;
     struct queueElement* next;
-}cqueue;
+} cqueue;
 
 
 void addElement(int data,cqueue** frontElement,cqueue** rearElement)
@@ -68,14 +68,15 @@ int main()
     char menuItem;
 
     int data = 0,
-    flag = TRUE;
+        flag = TRUE;
 
     cqueue *frontElement = NULL,
             *rearElement = NULL;
 
     system("cls");
 
-    do{
+    do
+    {
         printf("\nQueue Example");
         printf("\n  1)Insert");
         printf("\n  2)Delete");
@@ -86,7 +87,8 @@ int main()
 
         switch(menuItem)
         {
-        case 'i':case 'I':
+        case 'i':
+        case 'I':
             printf("\n\nEnter new Element : ");
             scanf("%d",&data);
 
@@ -95,14 +97,16 @@ int main()
             printf("\nAfter Adding %d,",data);
             break;
 
-        case 'd':case 'D':
+        case 'd':
+        case 'D':
             if(NULL != frontElement)
             {
                 data = deleteElement(&frontElement);
                 printf("\n\nAfter deleting %d,",data);
             }
             break;
-        case 'x':case 'X':
+        case 'x':
+        case 'X':
             flag = FALSE;
             break;
         default:

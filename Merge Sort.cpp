@@ -16,8 +16,8 @@ void sortUtil(int array[],int size,int topElement,int botElement);
 int main()
 {
     int i = 0,
-    totalelements = 0,
-    array[MAX_ELEMENTS];
+        totalelements = 0,
+        array[MAX_ELEMENTS];
 
     system("cls");
 
@@ -80,10 +80,10 @@ This function will be called by mergeSort() to sort the given array
 void sortUtil(int array[MAX_ELEMENTS],int size,int topElement,int botElement)
 {
     int i =0,
-    tempSize = size+1,
-    lowerBound = topElement,
-    upperBound = topElement,
-    tempArray[MAX_ELEMENTS];
+        tempSize = size+1,
+        lowerBound = topElement,
+        upperBound = topElement,
+        tempArray[MAX_ELEMENTS];
 
 
     while((lowerBound <= size) && (tempSize <= botElement))
