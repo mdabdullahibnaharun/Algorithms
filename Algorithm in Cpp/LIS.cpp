@@ -38,7 +38,7 @@ int LIS()
     {
         for(j=0; j<i; j++)
         {
-            if(inp[i]>inp[j] && lis[i] <= lis[j])
+            if(inp[i]<inp[j] && lis[i] <= lis[j])
             {
                 lis[i]=lis[j]+1;
             }
