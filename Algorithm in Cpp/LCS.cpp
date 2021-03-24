@@ -22,7 +22,7 @@ int LCS()
 {
     int i, m,n=10;
     //cin>>n;
-    char inp1[n],inp2[n],matchary[n+1];
+    char inp1[n],inp2[n],matchary[n];
     cin>>inp1>>inp2;
 
     int l1=strlen(inp1);
