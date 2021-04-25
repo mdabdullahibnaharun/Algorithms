@@ -79,8 +79,6 @@ int main()
 
 // Binary Search in C++
 
-#include <iostream>
-using namespace std;
 
 int binarySearch(int array[], int x, int low, int high) {
   
